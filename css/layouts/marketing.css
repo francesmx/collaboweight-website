@@ -8,6 +8,7 @@
  * -- BASE STYLES --
  */
 body {
+    -webkit-text-size-adjust: none;
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 15px;
@@ -172,25 +173,25 @@ a.pure-button-primary {
     /*color: white;*/
     background: rgba(0, 0, 0, 0.5);
     /*border: 3px solid white;*/
-    padding: 1em 1.6em;
+    padding: 1em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
 }
 
 .splash-head h1 {
-  font-size: 1em;
+  font-size: 200%;
+  line-height: 1;
   color: white;
   font-weight: bold;
 }
 
 .splash-head p {
-  font-size: 40%;
+  font-size: 100%;
   color: white;
 }
 /*
 .splash-head a {
-  font-size: 50%;
   color: white;
 }*/
 
@@ -284,6 +285,7 @@ h6 {
     /* We increase the body font size */
     body {
         font-size: 16px;
+        -webkit-text-size-adjust: none;
     }
 
     /* We can align the menu header to the left, but float the
@@ -303,12 +305,10 @@ h6 {
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 50%;
-        height: 50%;
     }
 
-    .splash-head {
-        font-size: 250%;
+    .splash-head h1 {
+        font-size: 300%;
     }
 
 
@@ -326,7 +326,7 @@ h6 {
  */
 @media (min-width: 78em) {
     /* We increase the header font size even more */
-    .splash-head {
-        font-size: 300%;
+    .splash-head h1 {
+        font-size: 350%;
     }
 }
