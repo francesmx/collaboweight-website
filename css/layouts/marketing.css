@@ -16,7 +16,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../../img/common/vegetable-bike-min.jpg');
+    background-image: url('../../img/common/vegetable-bike-min2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -328,6 +328,7 @@ h6 {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
+
     /* We increase the header font size even more */
     .splash-head h1 {
         font-size: 350%;
