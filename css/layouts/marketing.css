@@ -12,18 +12,15 @@ body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 15px;
-    /*background-size: cover;
+    background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-    background-image: url('../../img/common/vegetable-bike-min3.jpg');
+    background-image: url('../../img/common/vegetable-bike-mini.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-position: center center;
-    background-color: #27ae60;*/
+    background-color: #27ae60;
 
-    background: url('../../img/common/vegetable-bike-min3.jpg') no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 h1,
@@ -50,7 +47,7 @@ label {
 }
 
 .l-box-lrg {
-    padding: 2em;
+    padding: 1em;
     /*border-bottom: 1px solid #27ae60;*/
 }
 
@@ -94,7 +91,7 @@ a.pure-button-primary {
     background: white;
     color: forestgreen;
     border-radius: 5px;
-    /*font-size: 120%;*/
+    font-size: 130%;
 }
 
 .pure-button-primary {
@@ -304,6 +301,7 @@ h6 {
             float: right;
         }
 
+
     /* We increase the height of the splash-container */
 /*    .splash-container {
         height: 500px;
@@ -335,6 +333,7 @@ h6 {
 
   body {
     background-size: cover;
+    background-attachment: fixed;
   }
     /* We increase the header font size even more */
     .splash-head h1 {
