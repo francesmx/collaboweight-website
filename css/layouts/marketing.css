@@ -33,6 +33,12 @@ label {
     color: #34495e;
 }
 
+.logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -321,6 +327,9 @@ h6 {
     .l-box-lrg {
         border: none;
     }
+    .logo {
+        width: 250px;
+    }
 
 }
 
@@ -338,5 +347,8 @@ h6 {
     /* We increase the header font size even more */
     .splash-head h1 {
         font-size: 350%;
+    }
+    .logo {
+        width: 250px;
     }
 }
